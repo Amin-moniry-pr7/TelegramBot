@@ -9,8 +9,8 @@ import threading
 from typing import Dict, List, Optional
 import requests
 
-TOKEN = os.environ.get('BOT_TOKEN')
-ADMIN_ID = int(os.environ.get('ADMIN_ID'))
+TOKEN = os.environ.get('BOT_TOKEN', '8092031127:AAHVNKiG396tGhKo9w0KNUGys5sjWsugLW8')
+ADMIN_ID = int(os.environ.get('ADMIN_ID', '@amin7programmer7adc'))
 
 import logging
 logging.basicConfig(level=logging.ERROR)
@@ -227,7 +227,7 @@ def start(update: Update, context: CallbackContext):
     welcome_text = f"""💛 **سلام {user_name} عزیز!**
 
 ╔══════════════════════════╗
-║      **🤖 ربات مترجم Aminᵃᵈᶜ⁷**      ║
+║      **🤖 ربات مترجم BotAMᵃᵈᶜ⁷**      ║
 ╚══════════════════════════╝
 
 ✨ **ویژگی‌های ربات:**
@@ -488,7 +488,7 @@ def help_command(update: Update, context: CallbackContext):
     help_text = f"""📖 **راهنمای کامل ربات**
 
 ╔══════════════════════════╗
-║      **🤖 ربات مترجم Aminᵃᵈᶜ⁷**      ║
+║      **🤖 ربات مترجم BotAMᵃᵈᶜ⁷**      ║
 ╚══════════════════════════╝
 
 **💛 نحوه استفاده:**
@@ -567,7 +567,7 @@ def info_command(update: Update, context: CallbackContext):
     info_text = f"""ℹ️ **اطلاعات ربات**
 
 ╔══════════════════════════╗
-║    **🤖 ربات مترجم Aminᵃᵈᶜ⁷**    ║
+║    **🤖 ربات مترجم BotAMᵃᵈᶜ⁷**    ║
 ╚══════════════════════════╝
 
 **📋 مشخصات:**
@@ -665,7 +665,7 @@ def show_main_menu(query):
     text = f"""🏠 **منوی اصلی**
 
 ╔══════════════════════════╗
-║      **🤖 ربات مترجم Aminᵃᵈᶜ⁷**      ║
+║      **🤖 ربات مترجم BotAMᵃᵈᶜ⁷**      ║
 ╚══════════════════════════╝
 
 **✨ آماده برای ترجمه جدید هستید؟**

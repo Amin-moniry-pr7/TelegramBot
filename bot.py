@@ -9,8 +9,8 @@ import threading
 from typing import Dict, List, Optional
 import requests
 
-TOKEN = os.environ.get('BOT_TOKEN', '8092031127:AAHVNKiG396tGhKo9w0KNUGys5sjWsugLW8')
-ADMIN_ID = int(os.environ.get('ADMIN_ID', '@amin7programmer7adc'))
+TOKEN = os.environ.get('BOT_TOKEN')
+ADMIN_ID = int(os.environ.get('ADMIN_ID'))
 
 import logging
 logging.basicConfig(level=logging.ERROR)

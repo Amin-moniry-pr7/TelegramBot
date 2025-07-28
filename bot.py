@@ -12,7 +12,7 @@ import requests
 TOKEN = os.environ.get('BOT_TOKEN')
 ADMIN_ID = int(os.environ.get('ADMIN_ID'))
 
-CHANNEL_ID = "@adc7AIA7adc"
+CHANNEL_ID = "-1002274285581"
 CHANNEL_URL = "https://t.me/adc7AIA7adc"
 
 import logging

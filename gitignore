@@ -1,1 +1,209 @@
+# BotAM - Telegram Translator Bot
+# .gitignore file
 
+# ========================
+# SENSITIVE FILES
+# ========================
+# Bot token and API keys
+.env
+config.ini
+secrets.json
+bot_token.txt
+api_keys.txt
+
+# ========================
+# BOT DATA FILES
+# ========================
+# User database and translations
+bot_data.json
+users.json
+translations.json
+database.db
+*.db
+*.sqlite
+*.sqlite3
+
+# ========================
+# LOG FILES
+# ========================
+# Bot logs and debug files
+*.log
+logs/
+debug.log
+error.log
+bot.log
+telegram.log
+
+# ========================
+# PYTHON FILES
+# ========================
+# Byte-compiled / optimized Python files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ========================
+# VIRTUAL ENVIRONMENTS
+# ========================
+# Python virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+pyvenv.cfg
+
+# ========================
+# IDE FILES
+# ========================
+# PyCharm
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ========================
+# SYSTEM FILES
+# ========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ========================
+# TEMPORARY FILES
+# ========================
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+temp/
+tmp/
+cache/
+.cache/
+
+# ========================
+# DOCKER FILES
+# ========================
+# Docker files (if using containerization)
+Dockerfile.dev
+docker-compose.override.yml
+.dockerignore
+
+# ========================
+# TESTING FILES
+# ========================
+# Testing and coverage
+.coverage
+.pytest_cache/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+htmlcov/
+
+# ========================
+# DOCUMENTATION
+# ========================
+# Sphinx documentation
+docs/_build/
+.readthedocs.yml
+
+# ========================
+# DEPLOYMENT FILES
+# ========================
+# Deployment configurations
+deploy.sh
+production.ini
+staging.ini
+heroku.yml
+.procfile
+
+# ========================
+# BACKUP FILES
+# ========================
+# Backup files
+*.backup
+backup/
+backups/
+*.old
+
+# ========================
+# MISC FILES
+# ========================
+# Other files to ignore
+*.pid
+*.seed
+*.pid.lock
+node_modules/ (if using any Node.js tools)
+.npm
+.eslintcache
